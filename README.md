@@ -27,7 +27,32 @@
 
 <h2>Desenvolvimento</h2>
 
-<h4>Mapa Mental do Aplicativo</h4>
+<section>
+  <h4>Mapa Mental do Aplicativo</h4>
+  <div align="center">
+    <img width="1000" alt="Mapa Mental do Aplicativo" src="img/mapa-mental.png">
+  </div>
+</section>
 
-<p><img src="caminho/para/o/seu/mapa_mental.png" alt="Mapa Mental do Aplicativo"></p>
+<section>
+  <h4>Protótipo de Baixa Fidelidade</h4>
+  <div align="center">
+    <img width="800" alt="Protótipo de Baixa Fidelidade 0" src="img/telas 0.png">
+    <img width="800" src="img/telas 1.png" alt="Protótipo de Baixa Fidelidade 1">
+    <img width="800" src="img/telas 2.png" alt="Protótipo de Baixa Fidelidade 2">
+  </div>
+</section>
+
+<section>
+  <h4>Wireframe</h4>
+  <p>Demonstração da interface de média fidelidade interativa feita no Figma.</p>
+  <div align="center">
+    <img height="400" alt="Wireframe" src="img/prototipo-media-fidelidade.gif">
+  </div>
+</section>
+
+<section>
+  <h4>Protótipo de Alta Fidelidade</h4>
+  <p>🚧 EM CONSTRUÇÃO 🚧</p>
+</section>
 
