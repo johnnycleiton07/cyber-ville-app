@@ -21,7 +21,7 @@ class _NextScreenState extends State<NextScreen> {
   final List<Question> _questions = [
     Question(
       id: '10',
-      title: 'Por que é importante que seus pais ou responsáveis configurem controles parentais nos dispositivos que você usa?',
+      title: 'Por que é importante o controle parental nos dispositivos que você usa?',
       options: {'Para garantir que você tenha acesso a todos os sites': false, 
                 'Para limitar o tempo de uso e bloquear conteúdo inadequado': true, 
                 'Para impedir que você jogue online': false, 
@@ -30,7 +30,7 @@ class _NextScreenState extends State<NextScreen> {
     ),
     Question(
       id: '11',
-      title: 'O que você deve fazer se encontrar algo na internet que te deixe desconfortável ou com medo?',
+      title: 'O que fazer se encontrar algo na internet que te deixe desconfortável ou com medo?',
       options: {'Ignorar e continuar navegando': false, 
                 'Contar imediatamente a um adulto de confiança': true, 
                 'Compartilhar com seus amigos para ver o que eles acham': false, 
@@ -57,7 +57,7 @@ class _NextScreenState extends State<NextScreen> {
     ),
     Question(
       id: '14',
-      title: 'Por que é importante não concordar em encontrar pessoalmente alguém que você conheceu online?',
+      title: 'Por que é importante não encontrar pessoalmente alguém que conheceu online?',
       options: {'Porque pode ser perigoso encontrar quem você não conhece pessoalmente': true, 
                 'Porque eles podem querer te dar presentes': false, 
                 'Porque pode ser uma oportunidade para fazer novos amigos': false, 

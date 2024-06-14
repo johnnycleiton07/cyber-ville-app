@@ -18,8 +18,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void _login() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    // Simples verificação do login
-    if (_usernameController.text == 'user' && _passwordController.text == 'password') {
+    // Verificação do login com credenciais específicas
+    if (_usernameController.text == 'admin' && _passwordController.text == '1234') {
       prefs.setBool('isLoggedIn', true);
       Navigator.pushReplacement(
         // ignore: use_build_context_synchronously

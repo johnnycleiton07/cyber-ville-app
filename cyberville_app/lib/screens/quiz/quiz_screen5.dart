@@ -25,7 +25,7 @@ class QuizScreen5 extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text(
-              'Em cyberville é comum\n existir dispositivos\n inteligentes e bem informados. Alexa é um exemplo!',
+              'Em cyberville é comum existir\n dispositivos inteligentes e bem informados. Alexa é um exemplo!',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,
@@ -37,7 +37,7 @@ class QuizScreen5 extends StatelessWidget {
             Image.asset('assets/alexa_aplanta.png', height: 200),
             const SizedBox(height: 20.0),
             const Text(
-              'Ajude a planta a espalhar\n boas práticas de obtenção de informação online',
+              'Ajude a planta a espalhar\n boas práticas de obtenção\n de informação online',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,

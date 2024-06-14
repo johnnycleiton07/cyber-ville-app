@@ -37,7 +37,7 @@ class QuizScreen4 extends StatelessWidget {
             Image.asset('assets/policial_vector.png', height: 200),
             const SizedBox(height: 20.0),
             const Text(
-              'Ajude Vector a proteger\n outras crianças dos perigos online em CyberVille',
+              'Ajude Vector a proteger\n outras crianças dos perigos online\n em CyberVille',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,

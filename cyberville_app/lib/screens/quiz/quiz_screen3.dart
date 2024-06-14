@@ -37,7 +37,7 @@ class QuizScreen3 extends StatelessWidget {
             Image.asset('assets/jogadora_707.png', height: 200),
             const SizedBox(height: 20.0),
             const Text(
-              'Proteja os cidadãos de CyberVille junto com a Jogadora 707',
+              'Proteja os cidadãos de CyberVille\n junto com a Jogadora 707',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,

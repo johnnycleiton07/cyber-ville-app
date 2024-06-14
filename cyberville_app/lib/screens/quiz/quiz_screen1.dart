@@ -25,7 +25,7 @@ class QuizScreen1 extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text(
-              'Nossa aventura começa com o guardião das senhas em Cyberville, conhecido como:',
+              'Nossa aventura começa com\n o guardião das senhas em Cyberville,\n conhecido como:',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 20.0, fontFamily: 'upheavtt', color: fontcolor),
             ),
@@ -33,7 +33,7 @@ class QuizScreen1 extends StatelessWidget {
             Image.asset('assets/coronel_chave.png', height: 200),
             const SizedBox(height: 20.0),
             const Text(
-              'Ajude o Coronel a proteger a cidade através do seu conhecimento em segurança online!',
+              'Ajude o Coronel a proteger\n a cidade através do seu conhecimento\n em segurança online!',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 20.0, fontFamily: 'upheavtt', color: fontcolor),
             ),

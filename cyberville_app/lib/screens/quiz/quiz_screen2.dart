@@ -25,7 +25,7 @@ class QuizScreen2 extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text(
-              'Em Cyberville, ele é seu guia para proteger os cidadãos usuários de aplicativos digitais:',
+              'Em Cyberville, ele é seu guia\n para proteger os cidadãos usuários\n de aplicativos digitais:',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,
@@ -37,7 +37,7 @@ class QuizScreen2 extends StatelessWidget {
             Image.asset('assets/gato_cibernetico.png', height: 200),
             const SizedBox(height: 20.0),
             const Text(
-              'Demonstre sua maestria em conhecimentos de segurança online!',
+              'Demonstre sua maestria em\n conhecimentos de segurança online!',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,
