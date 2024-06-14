@@ -1,3 +1,4 @@
+import 'package:cyberville_app/constants.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -7,25 +8,29 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Perfil do Usuário'),
+        title: const Text('Perfil do Usuário', style: TextStyle(
+          color: neutral,
+          fontFamily: 'upheavtt',
+        ),),
+      backgroundColor: background,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center, // Centraliza verticalmente
-            crossAxisAlignment: CrossAxisAlignment.center, // Centraliza horizontalmente
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               const CircleAvatar(
-                radius: 50,
-                backgroundImage: NetworkImage(
-                    'https://www.example.com/avatar.jpg'), // URL da imagem do perfil
+                radius: 80,
+                backgroundImage: AssetImage('assets/perfil.png'),
               ),
               const SizedBox(height: 20),
               const Text(
-                'Nome do Usuário',
+                'Johnny',
                 style: TextStyle(
                   fontSize: 24,
+                  color: fontcolor,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -43,10 +48,11 @@ class ProfileScreen extends StatelessWidget {
                   // Ação para editar perfil
                 },
                 style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.white,
-                  backgroundColor: Colors.blue,
+                  foregroundColor: neutral,
+                  backgroundColor: background,
                 ),
-                child: const Text('Editar Perfil'),
+                child: const Text('Editar Perfil',
+                 style: TextStyle(fontFamily: 'upheavtt', fontSize: 20.0),),
               ),
             ],
           ),

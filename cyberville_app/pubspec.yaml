@@ -77,6 +77,8 @@ flutter:
     - assets/jogadora_707.png
     - assets/policial_vector.png
     - assets/alexa_aplanta.png
+    - assets/perfil.png
+    - assets/notification.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

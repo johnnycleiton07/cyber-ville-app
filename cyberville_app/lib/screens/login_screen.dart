@@ -100,7 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 5),
             TextButton(
               onPressed: _accessWithoutLogin,
               child: const Text(

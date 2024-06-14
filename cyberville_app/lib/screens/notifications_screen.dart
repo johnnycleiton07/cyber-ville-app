@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '/constants.dart'; // Importe seus constantes personalizadas aqui, se necessário.
 
 class NotificationsScreen extends StatelessWidget {
-  const NotificationsScreen({Key? key});
+  const NotificationsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,10 +26,11 @@ class NotificationsScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center, // Centraliza verticalmente
             crossAxisAlignment: CrossAxisAlignment.center, // Centraliza horizontalmente
             children: <Widget>[
-              const Icon(
-                Icons.notifications,
-                size: 80,
-                color: fontcolor, // Cor do ícone
+              Image.asset(
+                'assets/notification.png', // Substitua com o caminho da sua imagem
+                width: 100,
+                height: 100,
+                // Você pode ajustar width e height conforme necessário
               ),
               const SizedBox(height: 20),
               const Text(
@@ -50,11 +51,14 @@ class NotificationsScreen extends StatelessWidget {
                   foregroundColor: neutral,
                   backgroundColor: background, // Cor do botão
                 ),
-                child: const Text('Atualizar', 
-                style: TextStyle(
-                  fontSize: 20,
-                  fontFamily: 'upheavtt',
-                  color: neutral,),),
+                child: const Text(
+                  'Atualizar',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontFamily: 'upheavtt',
+                    color: neutral,
+                  ),
+                ),
               ),
             ],
           ),
